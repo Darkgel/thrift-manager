@@ -1,7 +1,7 @@
 <?php
 return [
     //default配置
-    'namespacePrefix' => '',
+    'namespacePrefix' => '',//命名空间前缀
     'sendTimeout' => 3000,//毫秒
     'recvTimeout' => 3000,//毫秒
     'retry' => 3,
