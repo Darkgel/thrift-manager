@@ -1,0 +1,23 @@
+{
+    "name": "darkgel/thrift-manager",
+    "description": "A thrift client manager component",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": ">=5.5",
+        "packaged/thrift": "^0.11.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darkgel",
+            "email": "1627116986@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Darkgel\\Thrift\\": "src/"
+        }
+    }
+}
