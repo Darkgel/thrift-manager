@@ -8,8 +8,8 @@ return [
 
     'singleServiceConnectionConfig' => [
         //没有使用多路协议的配置例子
-//        'singleSampleService'=>[
-//            'clientClassName'   => 'sample\SampleThriftServiceClient',
+//        'SingleSampleService'=>[
+//            'clientClassName'   => 'SingleSampleServiceClient',//如果有命名空间的话需要带上,eg: a/b/SingleSampleServiceClient
 //            'serverHost'        => '127.0.0.1',
 //            'serverPort'        => '12345',
 //            'sendTimeout'       => 30000,
@@ -28,10 +28,10 @@ return [
 //            'retry' => 2,
 //            'services' => [//这里可以配置多个服务
 //                'MultiplicationService' => [
-//                    'clientClassName'   => 'MultiplicationServiceClient',
+//                    'clientClassName'   => 'MultiplicationServiceClient',//如果有命名空间的话需要带上,eg: a/b/MultiplicationServiceClient
 //                ],
 //                'AdditionService' => [
-//                    'clientClassName'   => 'AdditionServiceClient',
+//                    'clientClassName'   => 'AdditionServiceClient',//如果有命名空间的话需要带上,eg: a/b/AdditionServiceClient
 //                ],
 //            ],
 //        ],
